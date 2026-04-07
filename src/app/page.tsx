@@ -362,21 +362,16 @@ export default function Home() {
 
             <div className="max-w-2xl mx-auto bg-[#0a0a0c] border border-white/10 rounded-3xl p-8 md:p-12 relative overflow-hidden">
                <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-                 <div className="shrink-0 relative">
-                   <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-white/10">
-                      <img src="https://onlinekurs.test-it-academy.com/WMA_Waleri_Moretz_Profilfoto.png" alt="Waleri Moretz" className="w-full h-full object-cover grayscale opacity-80" />
-                   </div>
-                   <div className="absolute -bottom-2 -right-2 bg-orange-600 text-white text-[10px] font-bold px-2 py-1 rounded-md uppercase tracking-wider">
-                     WAMOCON
-                   </div>
+                 <div className="shrink-0 relative flex items-center justify-center bg-white/5 w-32 h-32 rounded-3xl border border-white/10 p-3">
+                    <img src="/logo.jpg" alt="WAMOCOn GmbH Logo" className="w-full h-full object-contain rounded-xl" />
                  </div>
                  <div>
-                   <h3 className="text-2xl font-bold text-white mb-1">Waleri Moretz</h3>
-                   <p className="text-orange-500 text-sm font-semibold uppercase tracking-widest mb-4">Geschäftsführer</p>
+                   <h3 className="text-2xl font-bold text-white mb-1">WAMOCOn GmbH</h3>
+                   <p className="text-orange-500 text-sm font-semibold uppercase tracking-widest mb-4">Entwicklung & Architektur</p>
                    <p className="text-slate-400 leading-relaxed mb-4">
-                     Dipl.-Ing. Wirtschaftsingenieur, 21 Jahre IT-Projekterfahrung in Deutschlands Leitindustrien. Entwickelt mit der WAMOCON GmbH praxiserprobte Fachsoftware, die das Leben von Fachkräften messbar erleichtert.
+                     Wir vereinen tiefgreifende IT-Projekterfahrung in Deutschlands Leitindustrien mit zielgerichteter Produktentwicklung. Die WAMOCOn GmbH entwickelt praxiserprobte Fachsoftware, die das Leben von Fachkräften messbar erleichtert.
                    </p>
-                   <p className="text-slate-500 text-sm">
+                   <p className="text-slate-500 text-sm italic">
                      "Wir bauen Werkzeuge, die im Keller und auf dem Dachboden funktionieren, nicht nur im Hochglanz-Büro."
                    </p>
                  </div>
