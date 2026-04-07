@@ -12,7 +12,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 h-16 flex items-center border-b border-white/5 bg-[#0a0a0c]/80 backdrop-blur-md">
         <div className="w-full max-w-[1100px] mx-auto px-5 md:px-10 flex items-center justify-between">
           <a href="#" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src="/logo.jpg" alt="Saniatlas Logo" className="h-10 w-10 object-contain rounded-[10px] shadow-sm shadow-blue-900/20" />
+            <img src="/lp_energy/logo.jpg" alt="Saniatlas Logo" className="h-10 w-10 object-contain rounded-[10px] shadow-sm shadow-blue-900/20" />
             <span className="text-2xl font-black tracking-tight text-white hidden sm:block">Saniatlas</span>
           </a>
           <div className="hidden md:flex items-center gap-6">
@@ -363,13 +363,13 @@ export default function Home() {
             <div className="max-w-2xl mx-auto bg-[#0a0a0c] border border-white/10 rounded-3xl p-8 md:p-12 relative overflow-hidden">
                <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                  <div className="shrink-0 relative flex items-center justify-center bg-white/5 w-32 h-32 rounded-3xl border border-white/10 p-3">
-                    <img src="/logo.jpg" alt="WAMOCOn GmbH Logo" className="w-full h-full object-contain rounded-xl" />
+                    <img src="/lp_energy/logo.jpg" alt="WAMOCON GmbH Logo" className="w-full h-full object-contain rounded-xl" />
                  </div>
                  <div>
-                   <h3 className="text-2xl font-bold text-white mb-1">WAMOCOn GmbH</h3>
+                   <h3 className="text-2xl font-bold text-white mb-1">WAMOCON GmbH</h3>
                    <p className="text-orange-500 text-sm font-semibold uppercase tracking-widest mb-4">Entwicklung & Architektur</p>
                    <p className="text-slate-400 leading-relaxed mb-4">
-                     Wir vereinen tiefgreifende IT-Projekterfahrung in Deutschlands Leitindustrien mit zielgerichteter Produktentwicklung. Die WAMOCOn GmbH entwickelt praxiserprobte Fachsoftware, die das Leben von Fachkräften messbar erleichtert.
+                     Wir vereinen tiefgreifende IT-Projekterfahrung in Deutschlands Leitindustrien mit zielgerichteter Produktentwicklung. Die WAMOCON GmbH entwickelt praxiserprobte Fachsoftware, die das Leben von Fachkräften messbar erleichtert.
                    </p>
                    <p className="text-slate-500 text-sm italic">
                      "Wir bauen Werkzeuge, die im Keller und auf dem Dachboden funktionieren, nicht nur im Hochglanz-Büro."
@@ -392,7 +392,7 @@ export default function Home() {
         <div className="max-w-[1100px] mx-auto px-5 md:px-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-4 hover:opacity-80 transition-opacity cursor-pointer">
-               <img src="/logo.jpg" alt="Saniatlas Logo" className="h-8 w-8 rounded-lg object-contain" />
+               <img src="/lp_energy/logo.jpg" alt="Saniatlas Logo" className="h-8 w-8 rounded-lg object-contain" />
                <span className="text-lg font-black tracking-tight text-white">Saniatlas</span>
             </div>
             <p className="text-xs max-w-xs text-slate-500">
